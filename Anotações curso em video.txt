@@ -1,0 +1,77 @@
+BANCO DE DADOS COMTÉM TABELAS, CONTÉM REGISTROS, CONTÉM CAMPOS.
+
+CRIAR TABELAS:
+
+CREATE TABLE(
+);
+
+TIPOS PRIMITIVOS:
+NUMÉRICO:
+inteiros: TinyInt, SmallInt, Int, MediumInt, BigInt.
+
+reais: Decimal, Float, Double, Real.
+
+lógicos: Bit, Boolean
+
+-------------------------------------------------------------------------------------------
+
+DATA/TEMPO: Date, DateTime, TimeStamp, Time, Year
+LITERAL = 
+caractere: Char (Caso tenha 30 espaços reservados ocupa 30 sempre)
+
+Varchar(Caso tenha 30 espaços reservados ocupa a quantidade de letras que foi utilizada
+e deixa o resto disponível).
+
+textos: TinyText, Text, MediumText, LongText.(Descriçoes e textos longos).
+
+binários: TinyBlob, Blob, MediumBlob, LongBlob.(Guarda qualquer coisa em binário, ex uma im-
+agem porém não é recomendado)
+
+coleções: Enum, Set
+
+-------------------------------------------------------------------------------------------
+
+ESPACIAL:
+Geometry, Point, Polygon, MultiPolygon.(Guarda informações, volumétricas.
+
+-------------------------------------------------------------------------------------------
+
+CRIAR DATABASE PADRÃO UTF - 8
+create database cadastro
+
+default character set utf8mb4
+
+default collate utf8mb4_general_ci;
+
+-------------------------------------------------------------------------------------------
+
+PRIMARY KEY - CAMPO QUE NÃO SE REPETE.
+
+
+-------------------------------------------------------------------------------------------
+
+DDL = data definition language(linguagem de definição de dados)
+ex: CREATE table, create database, alter table, drop table.
+
+-------------------------------------------------------------------------------------------
+
+Dml = data manipulation language(Linguagem de manipulação de dados)
+ex = insert into, Update, Delete, truncate.
+
+
+-------------------------------------------------------------------------------------------
+
+O professor falou o seguinte:
+Quando for mecher num banco de dados jamais
+mecher com ele em produção // em uso
+sempre criar uma cópia para fazer alterações
+
+-------------------------------------------------------------------------------------------
+
+Cópia / Backup de um banco de dados se chama Dump.
+
+-------------------------------------------------------------------------------------------
+
+Buscar dumps de bancos de dados na internet e importar.
+
+-------------------------------------------------------------------------------------------

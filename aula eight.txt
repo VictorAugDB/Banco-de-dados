@@ -1,0 +1,8 @@
+describe gafanhotos;
+select * from cursos;
+select * from gafanhotos;
+describe cursos;
+
+drop database cadastro;
+
+show tables;
